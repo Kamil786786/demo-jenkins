@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class User {
 	
 	
-	@GetMapping("/")
+	@GetMapping("/users")
 	public String getData(){
 		return "Get data for Users";
 	}
